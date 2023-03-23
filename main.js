@@ -30,7 +30,7 @@ function adicionarLinha(){
     totalNomes.push(nomeContato.value)
     linha+=`<td>${numeroTelefone.value}</td>`
     //puxando telefone para array
-    totalNomes.push(numeroTelefone.value)
+    totalTelefones.push(numeroTelefone.value)
     linha+='</tr>'
 
     linhas += linha 
