@@ -22,7 +22,7 @@ function adicionarLinha(){
     const numeroTelefone = document.getElementById("telefone")
     const corpoFormulario = document.querySelector("tbody")
     if(totalNomes.includes(nomeContato.value) || totalTelefones.includes(numeroTelefone.value)){
-        alert(`contato "${nomeContato.value}" ja existente:`)
+        alert(`esse contato ja  existe`)
     }else{
         linha= '<tr>'
     linha+=`<td> ${nomeContato.value}  </td>`
